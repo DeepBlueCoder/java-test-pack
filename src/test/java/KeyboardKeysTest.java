@@ -5,7 +5,7 @@ import org.openqa.selenium.interactions.Actions;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class KeyboardKeys extends BaseTest {
+public class KeyboardKeysTest extends BaseTest {
 
     @Test
     public void uploadFile() throws Exception {

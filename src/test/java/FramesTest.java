@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.assertThat;
 
-public class Frames extends BaseTest {
+public class FramesTest extends BaseTest {
 
     @Test
     public void nestedFrames() throws Exception {

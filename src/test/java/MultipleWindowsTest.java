@@ -4,7 +4,7 @@ import java.util.Set;
 import static org.hamcrest.CoreMatchers.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class MultipleWindows extends BaseTest {
+public class MultipleWindowsTest extends BaseTest {
 
     @Test
     public void multipleWindows() {

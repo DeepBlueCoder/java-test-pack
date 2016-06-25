@@ -16,7 +16,7 @@ import java.io.File;
 import java.util.UUID;
 
 
-public class Download {
+public class DownloadTest {
     WebDriver driver;
     File folder;
 

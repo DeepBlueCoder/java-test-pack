@@ -4,7 +4,7 @@ import org.openqa.selenium.support.ui.Select;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class DisabledElements extends BaseTest {
+public class DisabledElementsTest extends BaseTest {
 
     @Test
     public void test() {

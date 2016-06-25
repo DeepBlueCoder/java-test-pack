@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class Hovers extends BaseTest {
+public class HoversTest extends BaseTest {
 
     @Test
     public void hoversTest() {

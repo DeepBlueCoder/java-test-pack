@@ -5,7 +5,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class JavaScriptAlert extends BaseTest {
+public class JavaScriptAlertTest extends BaseTest {
 
     @Test
     public void JavaScriptAlertTest() {

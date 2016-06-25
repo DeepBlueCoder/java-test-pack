@@ -5,7 +5,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class Upload extends BaseTest {
+public class UploadTest extends BaseTest {
 
     // If uploading to a Grid node or Sauce Labs, check out driver.setFileDetector()
     // https://saucelabs.com/resources/articles/selenium-file-upload

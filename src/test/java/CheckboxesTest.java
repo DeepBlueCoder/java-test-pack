@@ -6,7 +6,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.not;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class Checkboxes extends BaseTest {
+public class CheckboxesTest extends BaseTest {
 
     @Test
     public void checkboxDiscoveryTest() {

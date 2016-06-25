@@ -8,7 +8,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class RightClick extends BaseTest {
+public class RightClickTest extends BaseTest {
 
     @Test
     public void rightClickTest() throws InterruptedException {
