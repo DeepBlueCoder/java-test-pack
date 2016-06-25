@@ -7,12 +7,12 @@ public class BaseTest {
     WebDriver driver;
 
     @Before
-    protected void setUp() {
+    public void setUp() {
         driver = new FirefoxDriver();
     }
 
     @After
-    protected void tearDown() {
-        driver.quit();
+    public void tearDown() {
+       driver.quit();
     }
 }
