@@ -12,19 +12,20 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class ScreenshotTest extends BaseTest {
-    WebDriver driver;
 
     @Rule
     public TestRule watcher = new TestWatcher() {
         @Override
         protected void failed(Throwable throwable, Description description) {
             File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+            String fileDestination = System.getProperty("user.dir") + "/";
+            String fileName = "failshot_"
+                              + description.getClassName()
+                              + "_" + description.getMethodName()
+                              + ".png";
             try {
-                org.apache.commons.io.FileUtils.copyFile(scrFile,
-                        new File("failshot_"
-                                + description.getClassName()
-                                + "_" + description.getMethodName()
-                                + ".png"));
+                org.apache.commons.io.FileUtils.copyFile(
+                        scrFile, new File(fileDestination + fileName));
             } catch (IOException exception) {
                 exception.printStackTrace();
             }
